@@ -1,29 +1,39 @@
 body {
   background-color: #f1f1f1;
-  text-align: center;
-  font-family: arial, sans-serif;
-  padding-top: 10%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
   background: white;
-  padding: 40px;
+  padding: 30px;
   border-radius: 12px;
-  width: 300px;
-  margin: 0 auto;
+  width: 90%;
+  max-width: 400px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
 }
 
 #resultado {
-  font-size: 20px;
+  font-size: 4rem;
   margin: 20px 0;
   color: #333;
 }
 
 button {
   padding: 15px 30px;
-  font-size: 18px;
-  background-color: #4caf50;
+  font-size: 1rem;
+  background-color: #4CAF50;
   color: white;
   border: none;
   border-radius: 8px;
